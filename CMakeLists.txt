@@ -84,7 +84,7 @@ LINK_DIRECTORIES (
 
 # 공통 헤더 파일 Include 디렉토리 (-I)
 INCLUDE_DIRECTORIES ( 
-    ../../ksoo/Downloads/JUCE/modules
+    ./JUCE/modules
     JuceLibraryCode
     ${FREETYPE_INCLUDE_DIRS} 
     ${GTK_INCLUDE_DIRS}

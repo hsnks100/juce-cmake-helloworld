@@ -35,14 +35,7 @@ SET ( SRC_FILES
 
 
 
-# 공통 컴파일러
-#SET ( CMAKE_C_COMPILER "arm-hisiv400-linux-gcc" )
-#SET ( CMAKE_CXX_COMPILER "arm-hisiv400-linux-g++" ) 
-#SET(CMAKE_STRIP "arm-hisiv400-linux-strip")
- 
-
-
-
+# 공통 컴파일러 
 # 공통 컴파일 옵션, 링크 옵션
 ADD_DEFINITIONS ( 
 -DLINUX=1 -DNDEBUG=1 -DJUCER_LINUX_MAKE_6D53C8B4=1 -DJUCE_APP_VERSION=1.0.0 -DJUCE_APP_VERSION_HEX=0x10000 
